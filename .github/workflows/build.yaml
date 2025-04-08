@@ -49,6 +49,7 @@ jobs:
       - name: Build and Push with Cache
         run: |
           docker buildx build \
+            --platform=linux/amd64 \
             --cache-from=type=registry,ref=lmao1415/ltw:front-end \
             --cache-to=type=inline \
             --tag lmao1415/ltw:front-end \
