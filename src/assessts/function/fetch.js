@@ -3,7 +3,7 @@ import { use } from "react";
 const local = 'http://127.0.0.1:8080'
 const prod = 'http://be:8080'
 
-const url = prod
+const url = local
 
 export async function login(data) {
     return fetch(`${url}/auth/login`, {
