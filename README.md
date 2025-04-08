@@ -2,6 +2,9 @@
 
 Dự án xây dựng một trang web đọc truyện trực tuyến hiện đại, sử dụng **Next.js** và **Material-UI (MUI)** để mang lại trải nghiệm mượt mà và giao diện thân thiện với người dùng.
 
+## Biến môi trường
+- BACK_END_URL: URL của back-end
+
 ## Công nghệ sử dụng
 
 - [Next.js](https://nextjs.org/) - Framework React cho phát triển web nhanh chóng.
