@@ -1,7 +1,7 @@
 import { use } from "react";
 
 const local = 'http://127.0.0.1:8080'
-const backendUrl = process.env.BACK_END_URL || "http://localhost:8080";
+const backendUrl = "http://be:8080";
 
 const url = backendUrl
 
